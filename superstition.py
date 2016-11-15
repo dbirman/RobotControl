@@ -75,7 +75,7 @@ def superstitious():
     # check if a clap was recorded
     if dash.clap:
       dash.playBeep()
-      print(‘Clap!’)
+      print('Clap!')
       updateProbs()
     else:
       event()
